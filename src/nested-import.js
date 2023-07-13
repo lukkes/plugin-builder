@@ -1,5 +1,5 @@
-import { inlineImportsFromGithub, pluginFetch } from "lib/plugin-file-extractor"
+import { fetchWithRetry } from "lib/plugin-import-inliner"
 
 export function wrappedFetch(url, options) {
-  return pluginFetch(url, options)
+  return fetchWithRetry(url, options)
 }
