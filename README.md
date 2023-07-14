@@ -8,7 +8,6 @@ makes it easy to build plugins for Amplenote from Github projects.
 1. Clone this repo. `git clone git@github.com:alloy-org/plugin-builder.git`
 2. Install node and npm if you haven't already. 
 3. Run `npm install` to install the packages.  
-4. Copy `.env.example` to `.env` and fill in the environment variable for your OpenAI key
 
 ## Testing
 
