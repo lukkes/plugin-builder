@@ -1,5 +1,5 @@
 import { fetchWithRetry } from "lib/plugin-import-inliner"
 
-export function wrappedFetch(url, options) {
+export async function wrappedFetch(url, options) {
   return fetchWithRetry(url, options)
 }
