@@ -9,6 +9,16 @@ makes it easy to build plugins for Amplenote from Github projects.
 2. Install node and npm if you haven't already. 
 3. Run `npm install` to install the packages.  
 
+## Running offline
+
+You can also run the code locally to create a file called `out.plugin.js` which you can then copy and paste into Amplenote. Useful if you don't like commiting and pushing small changes that you want to test.
+
+To use:
+```
+npm install isomorphic-fetch
+node plugin.js
+```
+
 ## Testing
 
 Run `NODE_OPTIONS=--experimental-vm-modules npm test` to run the tests.
