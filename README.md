@@ -14,10 +14,14 @@ makes it easy to build plugins for Amplenote from Github projects.
 You can also run the code locally to create a file called `out.plugin.js` which you can then copy and paste into Amplenote. Useful if you don't like commiting and pushing small changes that you want to test.
 
 To use:
+Copy and paste `plugin.js` and `plugin-import-inliner.js` into the `lib` folder of your plugin, then in that directory:
+
 ```
 npm install isomorphic-fetch
 node plugin.js
 ```
+
+Open the resulting file (`out.plugin.js`) and copy and paste the contents of that file to your Amplenote plugin.
 
 ## Testing
 
